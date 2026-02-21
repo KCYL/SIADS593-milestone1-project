@@ -62,7 +62,7 @@ The rows represent country/year data points, enabling cross referencing via coun
 
 4. **Modeling and inference**
    - Simple regression and correlation analysis examining associations between production intensity and outbreak frequency.
-   - `corrMatrixProdTiersZoonCases` - Correlation Matrix of zoonotic cases and three groups of products, representing the frequency w/ which they are found in the top 25 goods produced by each country (represented in **both** datasets). 
+   - [`corrMatrixProdTiersZoonCases`](/figures/corrMatrixProdTiersZoonCases.png) - Correlation Matrix of zoonotic cases and three groups of products, representing the frequency w/ which they are found in the top 25 goods produced by each country (represented in **both** datasets). 
 
 ---
 
@@ -70,7 +70,7 @@ The rows represent country/year data points, enabling cross referencing via coun
 
 - *The correlation btw zoonotic cases and goods produced during 2015 - 2019 is **very weak**. However, the least frequently produced goods do have a significantly higher correlation than the most frequently produced goods per country.*
 - There are two significant outliers when it comes to case numbers.
-  - **Egypt** had the most cases by far, with an average of ~forty thousand reported per year. This can be seen in `heatmapZoonbyCountry.png` . Preliminary research attributes this to Salmonellosis and Campylobacteriosis.
+  - **Egypt** had the most cases by far, with an average of ~forty thousand reported per year. This can be seen in `heatmapZoonbyCountry` . Preliminary research attributes this to Salmonellosis and Campylobacteriosis.
   - **Poland** had an outbreak in 2019. This can also be attributed to Salmonellosis.
 - These findings are exploratory.
 
@@ -85,8 +85,8 @@ The analysis is organized into Jupyter notebooks:
 
 1. Download CSV files from `data`.
 2. Download `annotPythonNtbk` (created on [Jupyter](https://jupyter.org/) ).
-3. Upload `annotPythonNtbk` to Jupyter or similar Python notebook capable tool.
-4. Run all cells and enjoy. Please reach out if you want to discuss anything or have ideas for improvements!
+3. Upload `annotPythonNtbk.ipynb`, `WAHIS15-19.csv`, & `Production_Crops_Livestock_E_All_Data_NOFLAG.csv` to Jupyter (or similar Python notebook capable tool).
+4. Run all cells and enjoy. Please reach out for discussion or improvements!
 
 > **Note:** Some visualizations do not render inline on GitHub due to notebook rendering limitations. For full interactivity, download the notebooks and run them locally in JupyterLab or VS Code. 
 
