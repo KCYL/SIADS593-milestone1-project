@@ -36,7 +36,7 @@ Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default
 - [`Production_Crops_Livestock_E_All_Data_NOFLAG`](figures/Production_Crops_Livestock_E_All_Data_NOFLAG.csv)
   - Country level zoonotic outbreak records from the World Animal Health Information System ([WAHIS](https://www.woah.org/en/what-we-do/animal-health-and-welfare/disease-data-collection/world-animal-health-information-system/)).\
     Provided by the World Organisation for Animal Health ([WOAH](https://www.woah.org/)).
-> *Each dataset is provided as a CSV in the `data` folder but may be too large to **preview** on GitHub. It can be downloaded along with the Jupyter notebook for **reproduction**.* 
+> *Each dataset is provided as a CSV in the `data` folder but may be too large to **preview** on GitHub. It can be downloaded along with the Jupyter notebook `annotPythonNtbk.ipynb` for reproduction.* 
 
 **Dataset characteristics (pre-cleaning):**
 - Multiple years (2015-2019) of observations per country
@@ -53,10 +53,8 @@ The rows represent country/year data points, enabling cross referencing via coun
 1. **Data processing**
    - Standardized country names and split regions between datasets. Ultimately, a **merged dataframe** was produced. 
    All outputs were sourced from this.
-   - Averaged zoonotic cases across years for Lollipop graph (2nd exploratory visualization)
-   - Aggregated production values across years for regression & accompanying visuals
-
-      
+   - Averaged zoonotic cases across years for Lollipop graph (2nd exploratory visualization).
+   - Aggregated production values across years and broken in two three groups corresponding to frequency, for regression & accompanying visuals.
 
 2. **Exploratory analysis**
    - [`heatmapZoonbyCountry`](/figures/heatmapZoonbyCountry.png) - Heatmap of Zoonotic cases by Country and Year: shows trends and outliers in case numbers.
