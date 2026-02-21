@@ -57,7 +57,7 @@ The rows represent country/year data points, enabling cross referencing via coun
    - Averaged zoonotic cases across years for Lollipop graph (2nd exploratory visualization).
    - Aggregated production values across years and broken in two three groups corresponding to frequency, for regression & accompanying visuals.
 
-2. **Exploratory analysis**
+2. **Exploratory analysis w/ Altair**
    - [`heatmapZoonbyCountry`](/figures/heatmapZoonbyCountry.png) - Heatmap of Zoonotic cases by Country and Year: shows trends and outliers in case numbers.
    - [`lollipopZoonCountryAvg`](figures/lollipopZoonCountryAvg.png) - Lollipop Graph: top 10 countries reporting Zoonotic cases, averaged for 2015-2019.
 
@@ -92,7 +92,7 @@ The analysis was created w/ [Jupyter](https://jupyter.org/) notebooks:
 1. Download CSV files from `data`.
 2. Download `annotPythonNtbk`.
 3. Upload `annotPythonNtbk.ipynb`, `WAHIS15-19.csv`, & `Production_Crops_Livestock_E_All_Data_NOFLAG.csv` \
-   to Jupyter (or any notebook tool w/ Python).
+   to **any notebook tool w/ Python**.
 5. Run all cells and enjoy. Please reach out for thoughts and/or improvements!
 
 > **Note:** The notebook visualizations do not render inline on GitHub due to rendering limitations. For full interactivity, download the notebooks and run them locally in JupyterLab or VS Code. Otherwise, static verisions are available in `figures`.
