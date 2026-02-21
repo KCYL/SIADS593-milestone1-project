@@ -8,13 +8,17 @@ By [Blythe Weng](https://github.com/blythe1215), [Tahreem Karim](https://github.
 
 We explore whether **country level agricultural and livestock production patterns** are associated with the occurrence of zoonotic disease outbreaks. By combining production statistics with outbreak records, our analysis investigates potential relationships (if any) that may help characterize/contextualize zoonotic outbreaks, before Covid 19 changed everything.
 
-This is a portfolio project for the Master's of Applied Data Science [(MADS)](https://www.si.umich.edu/programs/master-applied-data-science) program at the University of Michigan, Ann Arbor. Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default/files/inline-files/2023.Winter_%20SIADS%20593%20Syllabus.pdf)).
+This is a portfolio project for the Master's of Applied Data Science ([MADS](https://www.si.umich.edu/programs/master-applied-data-science)) program at the University of Michigan, Ann Arbor. Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default/files/inline-files/2023.Winter_%20SIADS%20593%20Syllabus.pdf)).
 
 
+## Project Slides
+
+[![Zoonotic Outbreaks – Slide Preview](figures/slide_preview.png)](slides/Zoonotic_Outbreaks.pdf)
+
+*Click the image to view the full presentation (PDF) on GitHub.*
 
 
-
-## Motivation
+## Motivations
 
 Zoonotic diseases — illnesses transmitted between animals and humans — pose significant public health, economic, and ecological challenges. Events such as avian influenza, Ebola, and COVID-19 highlight the importance of understanding upstream risk factors. This project asks whether agricultural and livestock production indicators show meaningful associations with reported zoonotic outbreaks across countries.
 
