@@ -72,7 +72,7 @@ The rows represent country/year data points, enabling cross referencing via coun
 
 - *The correlation btw zoonotic cases and goods produced during 2015 - 2019 is **very weak**. However, the least frequently produced goods do have a significantly higher correlation than the most frequently produced goods per country.*
 - There are two significant outliers when it comes to case numbers.
-  - **Egypt** had the most cases by far, with an average of ~forty thousand reported per year. This can be seen in ... . Preliminary research attributes this to Salmonellosis and Campylobacteriosis.
+  - **Egypt** had the most cases by far, with an average of ~forty thousand reported per year. This can be seen in `heatmapZoonbyCountry.png` . Preliminary research attributes this to Salmonellosis and Campylobacteriosis.
   - **Poland** had an outbreak in 2019. This can also be attributed to Salmonellosis.
 - These findings are exploratory.
 
