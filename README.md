@@ -95,11 +95,12 @@ The analysis was created w/ [Jupyter](https://jupyter.org/) notebooks:
    to **any Python notebook tool**.
 5. Run all cells and enjoy. Please reach out for thoughts and/or improvements!
 
-> **Note:** The notebook visualizations do not render inline on GitHub due to rendering limitations. For full interactivity, download the files and run them locally. Static previews are available in `figures`.
+> **Note:** The notebook visualizations do not render inline on GitHub due to rendering limitations. For full interactivity, download the files and run them either locally or upload them to a notebook tool capable of python. Static previews are available in `figures`.
 
 
 
-## How to Run Locally via Terminal
+## Run Locally via Terminal
+`annotPythonNtbk` uses !mamba install meaning it installs into whatever conda environment is currently active. As long as conda/mamba is already installed (e.g. via Miniforge or Anaconda), you can just run it without a venv (virtual environment).
 
 ```bash
 git clone https://github.com/KCYL/SIADS593-milestone1-project.git
