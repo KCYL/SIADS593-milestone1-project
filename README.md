@@ -37,7 +37,7 @@ Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default
 - [`Production_Crops_Livestock_E_All_Data_NOFLAG`](figures/Production_Crops_Livestock_E_All_Data_NOFLAG.csv)
   - Country level zoonotic outbreak records from the World Animal Health Information System ([WAHIS](https://www.woah.org/en/what-we-do/animal-health-and-welfare/disease-data-collection/world-animal-health-information-system/)).\
     Provided by the World Organisation for Animal Health ([WOAH](https://www.woah.org/)).
-> Each dataset is included as a CSV in the data folder, though some files may be too large to preview directly on GitHub. They can be downloaded w/ the annotated notebook `annotPythonNtbk.ipynb` for reproduction. 
+> Each dataset is included as a CSV in the data folder, though some files may be too large to preview directly on GitHub. They can be downloaded w/ `annotPythonNtbk.ipynb` for reproduction. 
 
 **Dataset characteristics (pre-cleaning):**
 - Multiple years (2015-2019) of observations per country
@@ -51,14 +51,13 @@ The rows represent country/year data points, allowing cross referencing by count
 ## Workflow
 
 1. **Data processing**
-   - Standardized country names and split regions between datasets. Ultimately, a **merged dataframe** was produced. 
-   All outputs were sourced from this.
+   - Standardized country names and split regions between datasets. Ultimately, a **merged dataframe** was produced. All subsequent outputs were sourced from this.
    - Averaged zoonotic cases across years for Lollipop graph (2nd exploratory visualization).
    - Aggregated production values across years and broken in two three groups corresponding to frequency, for regression & accompanying visuals.
 
 2. **Exploratory analysis w/ Altair**
    - [`heatmapZoonbyCountry`](/figures/heatmapZoonbyCountry.png) - Heatmap of Zoonotic cases by Country and Year: shows trends and outliers in case numbers.
-   - [`lollipopZoonCountryAvg`](figures/lollipopZoonCountryAvg.png) - Lollipop Graph: top 10 countries reporting Zoonotic cases, averaged for 2015-2019.
+   - [`lollipopZoonCountryAvg`](figures/lollipopZoonCountryAvg.png) - Lollipop Graph: top 10 countries reporting Zoonotic cases, averaged per year.
 
 4. **Modeling and inference**
    - Simple regression and correlation analysis examining associations between production intensity and outbreak frequency.
