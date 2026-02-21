@@ -92,10 +92,10 @@ The analysis was created w/ [Jupyter](https://jupyter.org/) notebooks:
 1. Download CSV files from `data`.
 2. Download `annotPythonNtbk`.
 3. Upload `annotPythonNtbk.ipynb`, `WAHIS15-19.csv`, & `Production_Crops_Livestock_E_All_Data_NOFLAG.csv` \
-   to **any notebook tool w/ Python**.
+   to **any Python notebook tool**.
 5. Run all cells and enjoy. Please reach out for thoughts and/or improvements!
 
-> **Note:** The notebook visualizations do not render inline on GitHub due to rendering limitations. For full interactivity, download the notebooks and run them locally in JupyterLab or VS Code. Otherwise, static verisions are available in `figures`.
+> **Note:** The notebook visualizations do not render inline on GitHub due to rendering limitations. For full interactivity, download the files and run them locally. Static previews are available in `figures`.
 
 
 
