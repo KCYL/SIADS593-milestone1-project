@@ -8,20 +8,19 @@ By [Blythe Weng](https://github.com/blythe1215), [Tahreem Karim](https://github.
 
 We explore whether **country level agricultural and livestock production patterns** are associated with the occurrence of zoonotic disease outbreaks. By combining production statistics with outbreak records, our analysis investigates potential relationships (if any) that may help characterize/contextualize zoonotic outbreaks, before Covid 19 changed everything.
 
-This is a portfolio project for the Master's of Applied Data Science ([MADS](https://www.si.umich.edu/programs/master-applied-data-science)) program at the University of Michigan, Ann Arbor. Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default/files/inline-files/2023.Winter_%20SIADS%20593%20Syllabus.pdf)).
+This is a portfolio project for the Master's of Applied Data Science ([MADS](https://www.si.umich.edu/programs/master-applied-data-science)) program at the University of Michigan, Ann Arbor.\
+Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default/files/inline-files/2023.Winter_%20SIADS%20593%20Syllabus.pdf)). 
 
+#### Title Slide
+*Click the image to view the full presentation on GitHub or [download here](https://github.com/user-attachments/files/25432428/18-bweng-tahreemk-cheyuliu2026winter.pdf)(PDF).*
 
-## Project Slides
-
-[![Zoonotic Outbreaks – Slide Preview](figures/slide_preview.png)](slides/zoonOutbreaks&Trade.pdf)
-
-*Click the image to view the full presentation (PDF) on GitHub.*
-
-
-## Motivations
-
-Zoonotic diseases — illnesses transmitted between animals and humans — pose significant public health, economic, and ecological challenges. Events such as avian influenza, Ebola, and COVID-19 highlight the importance of understanding upstream risk factors. This project asks whether agricultural and livestock production indicators show meaningful associations with reported zoonotic outbreaks across countries.
-
+<a href="slides/Zoonotic_Outbreaks_and_Trade_Slides.pdf">
+  <img
+    width="900"
+    alt="Zoonotic Outbreaks – Slide Preview"
+    src="https://github.com/user-attachments/assets/d9f0d38a-fa3e-49cf-883e-5e514d138a3a"
+  />
+</a>
 
 
 
@@ -29,8 +28,8 @@ Zoonotic diseases — illnesses transmitted between animals and humans — pose 
 ## Data Summary
 
 **Primary data sources include:**
-- Country-level agricultural and livestock production data
-- Country-level zoonotic outbreak records
+- Country level agricultural and livestock production data
+- Country level zoonotic outbreak records from the World Animal Health Information System ([WAHIS](https://www.woah.org/en/what-we-do/animal-health-and-welfare/disease-data-collection/world-animal-health-information-system/)) provided by the World Organisation for Animal Health ([WOAH](https://www.woah.org/)).
 
 **Dataset characteristics:**
 - Multiple years of observations per country
@@ -91,10 +90,3 @@ cd SIADS593-milestone1-project
 jupyter lab
 ```
 
-[Download Zoonotic Outbreaks and Trade Slides_PDF](https://github.com/user-attachments/files/25432428/18-bweng-tahreemk-cheyuliu2026winter.pdf) 
-
-
-Preview below:
-
-[![Project slides preview](figures/slides_preview.png)](slides/Zoonotic_Outbreaks.pdf)
-<img width="1440" height="900" alt="Screenshot 2026-02-19 at 8 05 03 PM" src="https://github.com/user-attachments/assets/d9f0d38a-fa3e-49cf-883e-5e514d138a3a" />
