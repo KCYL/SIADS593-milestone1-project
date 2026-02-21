@@ -91,4 +91,6 @@ jupyter lab
 
 
 Preview below:
+
+[![Project slides preview](figures/slides_preview.png)](slides/Zoonotic_Outbreaks.pdf)
 <img width="1440" height="900" alt="Screenshot 2026-02-19 at 8 05 03 PM" src="https://github.com/user-attachments/assets/d9f0d38a-fa3e-49cf-883e-5e514d138a3a" />
