@@ -8,8 +8,8 @@ By [Blythe Weng](https://github.com/blythe1215), [Tahreem Karim](https://github.
 
 We explore whether **country level agricultural and livestock production patterns** are associated with the occurrence of zoonotic disease outbreaks. By combining production statistics with case records, our analysis explores the data to uncover any patterns that may aid epidimeological characterizations of zoonotic outbreaks, before Covid 19.
 
-This is a portfolio project for the Master's of Applied Data Science ([MADS](https://www.si.umich.edu/programs/master-applied-data-science)) program at the University of Michigan, Ann Arbor.\
-Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default/files/inline-files/2023.Winter_%20SIADS%20593%20Syllabus.pdf)). 
+This is a portfolio project for the Master's of Applied Data Science ([MADS](https://www.si.umich.edu/programs/master-applied-data-science)) program at the **University of Michigan, Ann Arbor**.\
+Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default/files/inline-files/2023.Winter_%20SIADS%20593%20Syllabus.pdf)). Go Blue!
 
 ## Title Slide
 *Click image to view full presentation on GitHub or [download here](https://github.com/user-attachments/files/25432428/18-bweng-tahreemk-cheyuliu2026winter.pdf) in PDF.*
