@@ -37,7 +37,7 @@ Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default
 - [`Production_Crops_Livestock_E_All_Data_NOFLAG`](figures/Production_Crops_Livestock_E_All_Data_NOFLAG.csv)
   - Country level zoonotic outbreak records from the World Animal Health Information System ([WAHIS](https://www.woah.org/en/what-we-do/animal-health-and-welfare/disease-data-collection/world-animal-health-information-system/)).\
     Provided by the World Organisation for Animal Health ([WOAH](https://www.woah.org/)).
-> Each dataset is provided as a CSV in the `data` folder but may be too large to **preview** on GitHub. They can be downloaded along with the notebook `annotPythonNtbk.ipynb` for reproduction. 
+> Each dataset is included as a CSV in the data folder, though some files may be too large to preview directly on GitHub. They can be downloaded w/ the annotated notebook `annotPythonNtbk.ipynb` for reproduction. 
 
 **Dataset characteristics (pre-cleaning):**
 - Multiple years (2015-2019) of observations per country
@@ -94,7 +94,7 @@ The analysis was created w/ [Jupyter](https://jupyter.org/) notebooks:
    to **any Python notebook tool**.
 5. Run all cells and enjoy. Please reach out for thoughts and/or improvements!
 
-> **Note:** The notebook visualizations do not render inline on GitHub due to rendering limitations. For full interactivity, download the files and run them either locally or upload them to a notebook tool capable of python. Static previews are available in `figures`.
+> The notebook visualizations do not render inline on GitHub due to rendering limitations. For full interactivity, download the files and run them either locally or upload them to a notebook tool capable of python. Static previews are available in `figures`.
 
 
 
