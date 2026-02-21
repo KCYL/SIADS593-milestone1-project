@@ -12,7 +12,7 @@ This is a portfolio project for the Master's of Applied Data Science ([MADS](htt
 Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default/files/inline-files/2023.Winter_%20SIADS%20593%20Syllabus.pdf)). 
 
 ## Title Slide
-*Click image to view full presentation on GitHub or [download here](https://github.com/user-attachments/files/25432428/18-bweng-tahreemk-cheyuliu2026winter.pdf) (PDF).*
+*Click image to view full presentation on GitHub or [download here](https://github.com/user-attachments/files/25432428/18-bweng-tahreemk-cheyuliu2026winter.pdf) in PDF.*
 
 <a href="slides/Zoonotic_Outbreaks_and_Trade_Slides.pdf">
   <img
@@ -80,15 +80,19 @@ The rows represent country/year data points, enabling cross referencing via coun
 
 The analysis is organized into Jupyter notebooks:
 
-- `01_exploration.ipynb` — data inspection and initial visualizations  
-- `02_modeling.ipynb` — regression and statistical analysis  
-- `03_visualizations.ipynb` — summary charts and figures  
+- `annotPythonNtbk` — data inspection and initial visualizations with Python & [Vega-Altair](https://altair-viz.github.io/). 
+- Part 2 of `annotPythonNtbk` — regression, statistical analysis, and summary charts. 
+
+1. Download CSV files from `data`.
+2. Download `annotPythonNtbk` (created on [Jupyter](https://jupyter.org/) ).
+3. Upload `annotPythonNtbk` to Jupyter or similar Python notebook capable tool.
+4. Run all cells and enjoy. Please reach out if you want to discuss anything or have ideas for improvements!
 
 > **Note:** Some visualizations do not render inline on GitHub due to notebook rendering limitations. For full interactivity, download the notebooks and run them locally in JupyterLab or VS Code. 
 
 
 
-## How to Run Locally
+## How to Run Locally via Terminal
 
 ```bash
 git clone https://github.com/KCYL/SIADS593-milestone1-project.git
