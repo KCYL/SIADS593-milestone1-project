@@ -21,7 +21,8 @@ Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default
     src="https://github.com/user-attachments/assets/d9f0d38a-fa3e-49cf-883e-5e514d138a3a"
   />
 </a>
-[cdc.gov](https://www.cdc.gov/) (link from slide, above) 
+
+[cdc.gov](www.cdc.gov/) (link from slide, above) 
 
 ---
 
