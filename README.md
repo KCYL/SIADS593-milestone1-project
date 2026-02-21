@@ -36,14 +36,14 @@ Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default
 - [`Production_Crops_Livestock_E_All_Data_NOFLAG`](figures/Production_Crops_Livestock_E_All_Data_NOFLAG.csv)
   - Country level zoonotic outbreak records from the World Animal Health Information System ([WAHIS](https://www.woah.org/en/what-we-do/animal-health-and-welfare/disease-data-collection/world-animal-health-information-system/)).\
     Provided by the World Organisation for Animal Health ([WOAH](https://www.woah.org/)).
-> *Each dataset is provided as a CSV in the `data` folder but may be too large to **preview** on GitHub. It can be downloaded along with the Jupyter notebook `annotPythonNtbk.ipynb` for reproduction.* 
+> Each dataset is provided as a CSV in the `data` folder but may be too large to **preview** on GitHub. It can be downloaded along with the Jupyter notebook `annotPythonNtbk.ipynb` for reproduction. 
 
 **Dataset characteristics (pre-cleaning):**
 - Multiple years (2015-2019) of observations per country
 - Production volumes and value for major livestock and agricultural goods
 - Counts of zoonotic cases by outbreaks per country
 
-The rows represent country/year data points, enabling cross referencing via country. Both datasets were merged, then cleaned for each **exploratory visualization**. Finally, the top 25 goods of each country & their zoonotic cases were extracted from the merged dataset and a **linear regression** was run to check for correlation. More detailed explanations can be found in the slideshow linked above. 
+The rows represent country/year data points, enabling cross referencing via country. Both datasets were merged, then cleaned for each **exploratory visualization**. Finally, the top 25 goods of each country & their zoonotic cases were extracted from the merged dataset and a **linear regression** was run to check for correlation. *More detailed explanations can be found in the slideshow linked above*. 
 
 
 
