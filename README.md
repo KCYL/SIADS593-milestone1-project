@@ -13,7 +13,7 @@ This is a portfolio project for the Master's of Applied Data Science ([MADS](htt
 
 ## Project Slides
 
-[![Zoonotic Outbreaks – Slide Preview](figures/slide_preview.png)](slides/Zoonotic_Outbreaks.pdf)
+[![Zoonotic Outbreaks – Slide Preview](figures/slide_preview.png)](slides/zoonOutbreaks&Trade.pdf)
 
 *Click the image to view the full presentation (PDF) on GitHub.*
 
