@@ -21,7 +21,7 @@ Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default
     src="https://github.com/user-attachments/assets/d9f0d38a-fa3e-49cf-883e-5e514d138a3a"
   />
 </a>
-\ https://www.cdc.gov/ (link from above) 
+[cdc.gov](https://www.cdc.gov/) (link from slide, above) 
 
 ---
 
@@ -93,7 +93,7 @@ The analysis was created w/ [Jupyter](https://jupyter.org/) notebooks:
 3. Upload `annotPythonNtbk.ipynb`, `WAHIS15-19.csv`, & `Production_Crops_Livestock_E_All_Data_NOFLAG.csv` to Jupyter (or similar Python notebook capable tool).
 4. Run all cells and enjoy. Please reach out for discussion or improvements!
 
-> **Note:** Some visualizations do not render inline on GitHub due to notebook rendering limitations. For full interactivity, download the notebooks and run them locally in JupyterLab or VS Code. 
+> **Note:** The notebook visualizations do not render inline on GitHub due to rendering limitations. For full interactivity, download the notebooks and run them locally in JupyterLab or VS Code. Otherwise, static verisions are available in `figures`.
 
 
 
