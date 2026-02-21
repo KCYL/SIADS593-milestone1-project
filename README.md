@@ -11,8 +11,8 @@ We explore whether **country level agricultural and livestock production pattern
 This is a portfolio project for the Master's of Applied Data Science ([MADS](https://www.si.umich.edu/programs/master-applied-data-science)) program at the University of Michigan, Ann Arbor.\
 Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default/files/inline-files/2023.Winter_%20SIADS%20593%20Syllabus.pdf)). 
 
-#### Title Slide
-*Click the image to view the full presentation on GitHub or [download here](https://github.com/user-attachments/files/25432428/18-bweng-tahreemk-cheyuliu2026winter.pdf)(PDF).*
+## Title Slide
+*Click image to view full presentation on GitHub or [download here](https://github.com/user-attachments/files/25432428/18-bweng-tahreemk-cheyuliu2026winter.pdf)(PDF).*
 
 <a href="slides/Zoonotic_Outbreaks_and_Trade_Slides.pdf">
   <img
