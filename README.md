@@ -12,7 +12,7 @@ This is a portfolio project for the Master's of Applied Data Science ([MADS](htt
 Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default/files/inline-files/2023.Winter_%20SIADS%20593%20Syllabus.pdf)). 
 
 ## Title Slide
-*Click image to view full presentation on GitHub or [download here](https://github.com/user-attachments/files/25432428/18-bweng-tahreemk-cheyuliu2026winter.pdf)(PDF).*
+*Click image to view full presentation on GitHub or [download here](https://github.com/user-attachments/files/25432428/18-bweng-tahreemk-cheyuliu2026winter.pdf) (PDF).*
 
 <a href="slides/Zoonotic_Outbreaks_and_Trade_Slides.pdf">
   <img
@@ -21,54 +21,60 @@ Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default
     src="https://github.com/user-attachments/assets/d9f0d38a-fa3e-49cf-883e-5e514d138a3a"
   />
 </a>
-\ https://www.cdc.gov/ (link in slide) 
-
+\ https://www.cdc.gov/ (link from above) 
 
 ---
- ---
+
+
 
 ## Data Summary
 
 **Primary data sources include:**
-- Country level agricultural and livestock production data
-- Country level zoonotic outbreak records from the World Animal Health Information System ([WAHIS](https://www.woah.org/en/what-we-do/animal-health-and-welfare/disease-data-collection/world-animal-health-information-system/)) provided by the World Organisation for Animal Health ([WOAH](https://www.woah.org/)).
+- [`WAHIS15-19.csv`](data/WAHIS15-19.csv)
+  - "Crops and livestock products" [dataset](https://www.fao.org/faostat/en/#data/QCL) from [FAOSTAT](https://www.fao.org/faostat/).\
+    Provided by the Food and Agriculture Organization of the United Nations ([FAO](https://www.fao.org/home/)). 
+- [`Production_Crops_Livestock_E_All_Data_NOFLAG`](figures/Production_Crops_Livestock_E_All_Data_NOFLAG.csv)
+  - Country level zoonotic outbreak records from the World Animal Health Information System ([WAHIS](https://www.woah.org/en/what-we-do/animal-health-and-welfare/disease-data-collection/world-animal-health-information-system/)).\
+    Provided by the World Organisation for Animal Health ([WOAH](https://www.woah.org/)).
+> *Each dataset is provided as a CSV in the `data` folder but may be too large to **preview** on GitHub. It can be downloaded along with the Jupyter notebook for **reproduction**.* 
 
-**Dataset characteristics:**
-- Multiple years of observations per country
-- Production quantities for major livestock and agricultural goods
-- Counts and classifications of zoonotic outbreaks
+**Dataset characteristics (pre-cleaning):**
+- Multiple years (2015-2019) of observations per country
+- Production volumes and value for major livestock and agricultural goods
+- Counts of zoonotic cases by outbreaks per country
 
-Each row represents a country-year observation, enabling cross-country comparison and exploratory modeling.
+The rows represent country/year data points, enabling cross referencing via country. Both datasets were merged, then cleaned for each **exploratory visualization**. Finally, the top 25 goods of each country & their zoonotic cases were extracted from the merged dataset and a **linear regression** was run to check for correlation. More detailed explanations can be found in the slideshow linked above. 
 
 
 
-## Analysis Workflow
 
-1. **Data cleaning and preprocessing**
-   - Standardized country names and regions
-   - Aggregated production values across years
-   - Addressed missing and inconsistent records
+## Workflow
+
+1. **Data processing**
+   - Standardized country names and split regions between datasets. Ultimately, a **merged dataframe** was produced. 
+   All outputs were sourced from this.
+   - Averaged zoonotic cases across years for Lollipop graph (2nd exploratory visualization)
+   - Aggregated production values across years for regression & accompanying visuals
+
+      
 
 2. **Exploratory analysis**
-   - Distributional analysis of production outputs
-   - Visualization of outbreak frequency by country and region
+   - [`heatmapZoonbyCountry`](/figures/heatmapZoonbyCountry.png) - Heatmap of Zoonotic cases by Country and Year: shows trends and outliers in case numbers.
+   - Lollipop Graph: top 10 countries reporting Zoonotic cases, averaged for 2015-2019.
 
-3. **Modeling and inference**
-   - Simple regression and correlation analyses
-   - Examination of associations between production intensity and outbreak frequency
+4. **Modeling and inference**
+   - Simple regression and correlation analysis examining associations between production intensity and outbreak frequency.
+   - `corrMatrixProdTiersZoonCases` - Correlation Matrix of zoonotic cases and three groups of products, representing the frequency w/ which they are found in the top 25 goods produced by each country (represented in **both** datasets). 
 
-4. **Interpretation**
-   - Assessment of patterns, uncertainty, and potential confounders
-
-
+---
 
 ## Key Findings
 
-- Certain livestock and agricultural products appear frequently in countries with higher reported zoonotic outbreak counts
-- Associations vary substantially by region and product category
-- Results suggest correlation rather than causation and are sensitive to reporting practices and data aggregation choices
-
-These findings are exploratory and intended to support discussion rather than definitive causal claims.
+- *The correlation btw zoonotic cases and goods produced during 2015 - 2019 is **very weak**. However, the least frequently produced goods do have a significantly higher correlation than the most frequently produced goods per country.*
+- There are two significant outliers when it comes to case numbers.
+  - **Egypt** had the most cases by far, with an average of ~forty thousand reported per year. This can be seen in ... . Preliminary research attributes this to Salmonellosis and Campylobacteriosis.
+  - **Poland** had an outbreak in 2019. This can also be attributed to Salmonellosis.
+- These findings are exploratory.
 
 
 
