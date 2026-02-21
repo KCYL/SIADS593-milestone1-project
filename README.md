@@ -58,7 +58,7 @@ The rows represent country/year data points, enabling cross referencing via coun
 
 2. **Exploratory analysis**
    - [`heatmapZoonbyCountry`](/figures/heatmapZoonbyCountry.png) - Heatmap of Zoonotic cases by Country and Year: shows trends and outliers in case numbers.
-   - Lollipop Graph: top 10 countries reporting Zoonotic cases, averaged for 2015-2019.
+   - [`lollipopZoonCountryAvg`](figures/lollipopZoonCountryAvg.png) - Lollipop Graph: top 10 countries reporting Zoonotic cases, averaged for 2015-2019.
 
 4. **Modeling and inference**
    - Simple regression and correlation analysis examining associations between production intensity and outbreak frequency.
@@ -70,8 +70,13 @@ The rows represent country/year data points, enabling cross referencing via coun
 
 - *The correlation btw zoonotic cases and goods produced during 2015 - 2019 is **very weak**. However, the least frequently produced goods do have a significantly higher correlation than the most frequently produced goods per country.*
 - There are two significant outliers when it comes to case numbers.
-  - **Egypt** had the most cases by far, with an average of ~forty thousand reported per year. This can be seen in `heatmapZoonbyCountry` . Preliminary research attributes this to Salmonellosis and Campylobacteriosis.
-  - **Poland** had an outbreak in 2019. This can also be attributed to Salmonellosis.
+  - **Egypt** had the most cases by far, with an average of ~forty thousand reported per year. This can be seen in `heatmapZoonbyCountry` and `lollipopZoonCountryAvg` located in the`figures` folder.
+    - Preliminary research attributes this to Salmonellosis and Campylobacteriosis: \
+    "Another study in Egypt detected higher rates of Salmonella at 60% (37/62) and 64% (14/20) in chicken parts and skin, respectively, whereas none of the tested table eggs samples (n = 60) were positive for Salmonella" \
+    [Current State of Salmonella, Campylobacter and Listeria in the Food Chain across the Arab Countries: A Descriptive Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC8535026/)
+
+  - **Poland** had an outbreak in 2019. This can also be attributed to Salmonellosis. \
+    [Salmonellosis in Poland in 2018 and 2019](https://pubmed.ncbi.nlm.nih.gov/35543609/)
 - These findings are exploratory.
 
 
