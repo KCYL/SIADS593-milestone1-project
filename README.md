@@ -6,7 +6,7 @@ By [Blythe Weng](https://github.com/blythe1215), [Tahreem Karim](https://github.
 
 ## Overview
 
-We explore whether **country level agricultural and livestock production patterns** are associated with the occurrence of zoonotic disease outbreaks. By combining production statistics with case records, our analysis explores the data to uncover any patterns that may aid epidimeological characterizations of zoonotic outbreaks, before Covid 19.
+We explore whether **country level agricultural and livestock production patterns** are associated with the occurrence of zoonotic disease outbreaks. By combining production statistics with case records, our analysis explores the data to uncover any patterns that may aid epidimeological characterizations of zoonotic outbreaks, before Covid 19 changed everything.
 
 This is a portfolio project for the Master's of Applied Data Science ([MADS](https://www.si.umich.edu/programs/master-applied-data-science)) program at the **University of Michigan, Ann Arbor**.\
 Course: SIADS 593 Milestone 1 ([syllabus](https://www.si.umich.edu/sites/default/files/inline-files/2023.Winter_%20SIADS%20593%20Syllabus.pdf)). Go Blue!
@@ -78,13 +78,13 @@ The rows represent country/year data points, enabling cross referencing via coun
 
 ## Notebooks & Reproducibility
 
-The analysis is organized into Jupyter notebooks:
+The analysis was created w/ [Jupyter](https://jupyter.org/) notebooks:
 
 - `annotPythonNtbk` — data inspection and initial visualizations with Python & [Vega-Altair](https://altair-viz.github.io/). 
 - Part 2 of `annotPythonNtbk` — regression, statistical analysis, and summary charts. 
 
 1. Download CSV files from `data`.
-2. Download `annotPythonNtbk` (created on [Jupyter](https://jupyter.org/) ).
+2. Download `annotPythonNtbk`.
 3. Upload `annotPythonNtbk.ipynb`, `WAHIS15-19.csv`, & `Production_Crops_Livestock_E_All_Data_NOFLAG.csv` to Jupyter (or similar Python notebook capable tool).
 4. Run all cells and enjoy. Please reach out for discussion or improvements!
 
